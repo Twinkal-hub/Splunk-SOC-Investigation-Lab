@@ -137,6 +137,19 @@ This alert was incorrectly classified during the investigation, highlighting the
 ![Firewall Alert Analysis](Evidence/Firewall-False-Positive-Analysis.png.png)
 
 
+### SOC Performance Summary
+
+The SOC Simulator generated a performance summary after completing the investigation. The dashboard provides an overview of investigation efficiency and accuracy.
+
+**Key Metrics**
+
+- Alerts Closed: **5**
+- Mean Time to Resolve (MTTR): **3 minutes**
+- Mean Dwell Time: **8 minutes**
+- True Positive Identification Rate: **67%**
+
+![SOC Performance Summary](Evidence/SOC-Performance-Summary.png)
+
 ## Findings
 
 During the investigation:
