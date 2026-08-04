@@ -115,7 +115,7 @@ Recorded investigation findings and submitted an incident report for each alert.
 
 The SOC Simulator provided AI-generated feedback on the investigation report.
 
-![AI Overall Analysis](Evidence/AI-Overall-Analysis.png)
+![AI Overall Analysis](Evidence/AI-Overall-Analysis.png.png)
 
 ---
 
@@ -134,7 +134,7 @@ The alert indicated access to a blacklisted external URL that was blocked by the
 
 This alert was incorrectly classified during the investigation, highlighting the importance of validating firewall events before closing an incident.
 
-![Firewall Alert Analysis](Evidence/Firewall-False-Positive-Analysis.png)
+![Firewall Alert Analysis](Evidence/Firewall-False-Positive-Analysis.png.png)
 
 
 ## Findings
