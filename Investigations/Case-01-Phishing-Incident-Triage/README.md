@@ -89,3 +89,12 @@ based on the available evidence.
 ### Step 4 – Documentation
 
 Recorded investigation findings and submitted an incident report for each alert.
+
+---
+
+## Lessons Learned
+
+- Carefully verify every alert before making a classification.
+- Review phishing indicators thoroughly before closing an incident.
+- Improve investigation accuracy by validating evidence instead of relying on assumptions.
+- Continue practicing phishing investigations to improve true positive identification.
