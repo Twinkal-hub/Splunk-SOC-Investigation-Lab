@@ -107,6 +107,22 @@ Recorded investigation findings and submitted an incident report for each alert.
 
 ---
 
+## Evidence
+
+### AI Overall Analysis
+
+The SOC Simulator provided AI-generated feedback on the investigation report. The analysis highlighted strengths in identifying the sender and email content while recommending improvements in documenting the potential impact, timeline, and context of phishing incidents.
+
+![AI Overall Analysis](Evidence/AI-Overall-Analysis.png)
+
+---
+
+### Alert Classification Results
+
+The investigation included four phishing alerts. Three alerts were classified correctly, while two incorrect classifications highlighted areas for further improvement in phishing detection and alert validation.
+
+![Alert Classification Results](Evidence/Alert-Classification-Results.png)
+
 ## Lessons Learned
 
 - Carefully verify every alert before making a classification.
