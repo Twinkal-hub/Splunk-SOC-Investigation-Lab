@@ -46,19 +46,21 @@ The objective was to review multiple email alerts, identify malicious activity, 
 
 ## Scenario
 
-(To be updated with the scenario provided by the SOC Simulator.)
+This investigation was performed using the TryHackMe SOC Simulator.
+
+The simulation presented multiple security alerts, including phishing email alerts and a firewall alert. Each alert was reviewed, investigated, and classified based on the available evidence.
 
 ---
 
-## Alert Information
-
 | Field | Value |
-|--------|-------|
-| Alert Rule | Inbound Email Containing Suspicious External Link |
-| Category | Phishing |
-| Severity | Medium |
+|-------|-------|
+| Alert Rule | Multiple Security Alerts |
+| Categories | Phishing, Firewall |
+| Severity | Medium / High |
 | Platform | TryHackMe SOC Simulator |
 | Alerts Reviewed | 5 |
+| Phishing Alerts | 4 |
+| Firewall Alerts | 1 |
 
 
 ---
@@ -111,7 +113,7 @@ Recorded investigation findings and submitted an incident report for each alert.
 
 ### AI Overall Analysis
 
-The SOC Simulator provided AI-generated feedback on the investigation report. The analysis highlighted strengths in identifying the sender and email content while recommending improvements in documenting the potential impact, timeline, and context of phishing incidents.
+The SOC Simulator provided AI-generated feedback on the investigation report.
 
 ![AI Overall Analysis](Evidence/AI-Overall-Analysis.png)
 
@@ -119,16 +121,20 @@ The SOC Simulator provided AI-generated feedback on the investigation report. Th
 
 ### Alert Classification Results
 
-The investigation included four phishing alerts. Three alerts were classified correctly, while two incorrect classifications highlighted areas for further improvement in phishing detection and alert validation.
+The following screenshot shows the alert classification summary after completing the phishing investigation.
 
 ![Alert Classification Results](Evidence/Alert-Classification-Results.png)
 
-## Lessons Learned
 
-- Carefully verify every alert before making a classification.
-- Review phishing indicators thoroughly before closing an incident.
-- Improve investigation accuracy by validating evidence instead of relying on assumptions.
-- Continue practicing phishing investigations to improve true positive identification.
+### Firewall Alert Analysis
+
+One firewall alert was investigated during the SOC simulation.
+
+The alert indicated access to a blacklisted external URL that was blocked by the firewall.
+
+This alert was incorrectly classified during the investigation, highlighting the importance of validating firewall events before closing an incident.
+
+![Firewall Alert Analysis](Evidence/Firewall-False-Positive-Analysis.png)
 
 
 ## Findings
@@ -147,3 +153,11 @@ During the investigation:
 - Analyze embedded URLs carefully.
 - Review email headers when available.
 - Continue practicing phishing investigations to improve detection accuracy.
+
+## Lessons Learned
+
+- Validate all available evidence before classifying an alert.
+- Analyze sender information, URLs, and email content carefully.
+- Review firewall alerts with the same attention as phishing alerts.
+- Avoid making assumptions during incident triage.
+- Improve reporting by clearly documenting the Who, What, When, Where, Why, and Impact of each incident.
