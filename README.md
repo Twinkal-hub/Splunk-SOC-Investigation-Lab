@@ -6,7 +6,6 @@ This repository documents my hands-on SOC (Security Operations Center) investiga
 
 The purpose of this project is to build practical SOC analyst skills through log analysis, threat hunting, incident investigation, and professional documentation.
 
----
 
 ## Objectives
 
@@ -16,7 +15,6 @@ The purpose of this project is to build practical SOC analyst skills through log
 - Improve incident response skills
 - Build a professional cybersecurity portfolio
 
----
 
 ## Skills Demonstrated
 
@@ -27,8 +25,6 @@ The purpose of this project is to build practical SOC analyst skills through log
 - Splunk SPL
 - Cybersecurity Documentation
 
----
-
 ## Repository Structure
 
 ```text
@@ -38,13 +34,10 @@ Screenshots/
 Resources/
 ```
 
----
-
 ## Status
 
 🚧 Currently building and documenting real-world SOC investigation labs.
 
----
 
 ## Author
 
