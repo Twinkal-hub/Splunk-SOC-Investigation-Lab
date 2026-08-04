@@ -1,7 +1,7 @@
 # Splunk SOC Investigation Lab
 
 ## Overview
-
+ 
 This repository documents my hands-on SOC (Security Operations Center) investigations using Splunk.
 
 The purpose of this project is to build practical SOC analyst skills through log analysis, threat hunting, incident investigation, and professional documentation.
