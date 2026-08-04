@@ -148,7 +148,7 @@ The SOC Simulator generated a performance summary after completing the investiga
 - Mean Dwell Time: **8 minutes**
 - True Positive Identification Rate: **67%**
 
-![SOC Performance Summary](Evidence/SOC-Performance-Summary.png)
+![SOC Performance Summary](Evidence/SOC-Performance-Summary.png.png)
 
 ## Findings
 
