@@ -20,6 +20,21 @@ The objective was to review multiple email alerts, identify malicious activity, 
 
 ---
 
+## Table of Contents
+
+- Overview
+- Investigation Details
+- Objectives
+- Scenario
+- Alert Information
+- Investigation Results
+- Investigation Process
+- Evidence
+- Findings
+- Recommendations
+- Lessons Learned
+- 
+
 ## Investigation Objectives
 
 - Investigate inbound phishing alerts.
@@ -98,3 +113,21 @@ Recorded investigation findings and submitted an incident report for each alert.
 - Review phishing indicators thoroughly before closing an incident.
 - Improve investigation accuracy by validating evidence instead of relying on assumptions.
 - Continue practicing phishing investigations to improve true positive identification.
+
+
+## Findings
+
+During the investigation:
+
+- Multiple phishing email alerts were analyzed.
+- Some phishing emails were correctly identified.
+- A few alerts were incorrectly classified, highlighting areas for improvement.
+- The investigation emphasized the importance of validating evidence before making decisions.
+
+
+  ## Recommendations
+
+- Verify sender reputation before closing alerts.
+- Analyze embedded URLs carefully.
+- Review email headers when available.
+- Continue practicing phishing investigations to improve detection accuracy.
